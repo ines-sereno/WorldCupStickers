@@ -1,0 +1,67 @@
+<html>
+    <!-- import css file -->
+    <link href="stickers.css" rel="stylesheet"/>
+    <header class="header">
+        <div class="header__bg">
+            <div class="header__cat">
+                <!-- image connecting to webpage -->
+                <a href="homepage.html">
+                    <img src="logo.png" alt="logo" class="header__cat__logo__img" height="50px">
+            <nav class="header__navi">
+                <div class="header__navi__wrap">
+                    <ul class="header__navi__list">
+                        <li class="header__navi__item"><a href="stickers.html"><span>Your Stickers</span></a></li>
+                        <li class="header__navi__item"><a href="players.html"><span>Players</span></a></li>
+                        <li class="header__navi__item"><a href="stadiums.html"><span>Stadiums</span></a></li>
+                        <li class="header__navi__item"><a href="historic.html"><span>Historic Stickers</span></a></li>
+                        <li class="header__navi__item"><a href="trading.html"><span>Trading Center</span></a></li>
+                        <li class="header__navi__item"><a href="login.html"><span>Login</span></a></li>
+                        <li class="header__navi__item"><a href="register.html"><span>Register</span></a></li>
+                        <li class="header__navi__item"><a href="games.html"><span>Games</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </header> 
+    <br><br><br><br><br><br><br><br>
+    <body>
+        <fieldset>
+            <form action="index.html" method="post">
+                <div>
+                    <h1> Insert the stadiums you have to keep info about them! </h1>
+                </div>
+                <br>
+            <div class="form-group">
+                <input autofocus class="form-control" name="code" placeholder="Sticker Code" type="text"/>
+            </div>
+            <div class="form-group">
+                <input autofocus class="form-control" name="name" placeholder="Stadium Name" type="text"/>
+            </div>
+            <div class="form-group">
+                <input autofocus class="form-control" name="capacity" placeholder="Stadium Capacity" type="text"/>
+            </div>
+            <button type="submit">Insert</button>
+            </form>
+        </fieldset>
+        <h3>
+            You can also look up information about stadiums you have already inserted!
+        </h3>
+    </br>
+        <fieldset>
+            <form action="index.html" method="post">
+                <div>
+                    <h1>
+                        Look up a specific stadium! </br>
+                        What is the stadium name?
+                    </h1>
+                    <br>
+                    <div class="form-group">
+                        <input autofocus class="form-control" name="name" placeholder="Stadium Name" type="text"/>
+                    </div>
+                </div>
+                <button type="submit">Lookup</button>
+            </form>
+        </fieldset>
+    </body>
+</html>

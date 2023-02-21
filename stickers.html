@@ -1,0 +1,78 @@
+<html>
+    <!-- import css file -->
+    <link href="stickers.css" rel="stylesheet"/>
+    <header class="header">
+        <div class="header__bg">
+            <div class="header__cat">
+                <!-- image connecting to webpage -->
+                <a href="homepage.html">
+                    <img src="logo.png" alt="logo" class="header__cat__logo__img" height="50px">
+            <nav class="header__navi">
+                <div class="header__navi__wrap">
+                    <ul class="header__navi__list">
+                        <li class="header__navi__item"><a href="stickers.html"><span>Your Stickers</span></a></li>
+                        <li class="header__navi__item"><a href="players.html"><span>Players</span></a></li>
+                        <li class="header__navi__item"><a href="stadiums.html"><span>Stadiums</span></a></li>
+                        <li class="header__navi__item"><a href="historic.html"><span>Historic Stickers</span></a></li>
+                        <li class="header__navi__item"><a href="trading.html"><span>Trading Center</span></a></li>
+                        <li class="header__navi__item"><a href="login.html"><span>Login</span></a></li>
+                        <li class="header__navi__item"><a href="register.html"><span>Register</span></a></li>
+                        <li class="header__navi__item"><a href="games.html"><span>Games</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </header> 
+    <br><br><br><br><br><br><br><br>
+    <body>
+        <fieldset>
+            <form action="index.html" method="post">
+                <div>
+                    <h1> Add your stickers to track your progress! </h1>
+                </div>
+                <br>
+            <div class="form-group">
+                <input autofocus class="form-control" name="code" placeholder="Sticker Code" type="text"/>
+            </div>
+            <h2>
+                Sticker type:
+            </h2>
+            <br>
+            <div><input type="radio" name="type" value="1"> 
+                <label for="type">Stadium</label>
+                <input type="radio" name="type" value="2">
+                <label for="type">Player</label>
+                <input type="radio" name="type" value="3">
+                <label for="type">Team Photo</label>
+                <input type="radio" name="type" value="4">
+                <label for="type">Country Flag</label>
+                <input type="radio" name="type" value="5">
+                <label for="type">Historic Game</label> 
+            </div> 
+            <br>
+            <div class="form-group">
+                <h2>Sticker level: </h2>
+                <br>
+                <!-- drop down menu -->
+                <select name="Sticker Level">
+                    <option value="1">Normal</option>
+                    <option value="2">Blue</option>
+                    <option value="3">Purple</option>
+                    <option value="4">Red</option>
+                    <option value="5">Green</option>
+                    <option value="6">Black</option>
+                    </select>
+                </div>
+            <!-- reset button -->
+            <div class="form-group">
+                <button class="btn btn-default" type="reset">
+                    Reset
+                </button>
+            <button type="submit">Insert</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
+
+</html>
