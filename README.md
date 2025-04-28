@@ -1,4 +1,4 @@
-<h1>World Cup Sticker Album Tracker</h1>
+<h1>World Cup Sticker Trading Database Project</h1>
 
 <h2>Database Description:</h2>
 The Panini Group comes out with Sticker Albums where you can collect football players' stickers each world cup. My friends and I were all attempting to complete this sticker album, and so I thought it would be great idea to put all stickers I had as well as any that I had doubles of in a database in order to keep track of them. 
